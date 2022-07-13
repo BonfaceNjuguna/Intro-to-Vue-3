@@ -3,7 +3,7 @@ const app = Vue.createApp({
         return {
             product: 'Socks',
             image: './assets/images/socks_blue.jpg',
-            url: 'https://learninglions.org/img/basic_training_icon_mouseover.png'
+            inventory: 0
         }
     }
 })
